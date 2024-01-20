@@ -66,7 +66,7 @@ Widget buildTextField(String hint, String textType, String iconName) {
   return Container(
     width: 325.w,
     height: 50.h,
-    margin: EdgeInsets.only(bottom: 25.h),
+    margin: EdgeInsets.only(bottom: 10.h),
     decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(15.w)),

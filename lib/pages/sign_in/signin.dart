@@ -26,11 +26,11 @@ class SignIn extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       reusableText("Email"),
-                      SizedBox(height: 5.h),
+                      SizedBox(height: 2.h),
                       buildTextField(
                           "Enter your email address", "email", "user"),
                       reusableText("Password"),
-                      SizedBox(height: 5.h),
+                      SizedBox(height: 2.h),
                       buildTextField("Enter your password", "password", "lock")
                     ],
                   ),
